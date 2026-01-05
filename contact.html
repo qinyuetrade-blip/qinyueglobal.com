@@ -55,9 +55,13 @@
                     <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" netlify>
                         <!-- Hidden fields for Netlify -->
                         <input type="hidden" name="form-name" value="contact" />
-                        <p class="hidden">
-                            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-                        </p>
+
+                        <!-- Honeypot field - completely hidden with inline style (anti-spam) -->
+                        <div style="position:absolute; left:-9999px; opacity:0; height:0; overflow:hidden;">
+                            <label>Don’t fill this out if you’re human: 
+                                <input type="text" name="bot-field" tabindex="-1" autocomplete="off" />
+                            </label>
+                        </div>
 
                         <div class="fields">
                             <div class="field half">
