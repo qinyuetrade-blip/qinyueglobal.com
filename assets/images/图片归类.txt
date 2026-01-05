@@ -1,0 +1,10 @@
+common 文件夹：用于首页、关于页、联系页（工厂、认证、联系图）
+gel-compression-sleeves：用于 landing 和专用页
+gel-ice-packs：用于 landing 和专用页（动物卡通图很吸引眼球）
+hot-cold-compress-packs：用于 landing 和专用页
+实用操作建议（今天就能做）
+
+用 Photoshop / Canva / 免费在线工具（photopea.com）批量裁剪到以上尺寸
+上传 TinyPNG.com 压缩（一批10张很快速）
+命名规则：系列-用途-序号.jpg 如 compress-banner.jpg、sleeves-model-01.jpg
+在代码里用 <img src="..." style="width:100%; border-radius:8px;" /> 确保响应式好看
